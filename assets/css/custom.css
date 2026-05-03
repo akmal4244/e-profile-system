@@ -1,0 +1,18 @@
+/* e-Profile System Custom Styles */
+body { animation: fadeIn 0.3s ease; }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.profile-card { transition: transform 0.25s ease, box-shadow 0.25s ease; cursor: pointer; }
+.profile-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(59,130,246,0.15); }
+
+.hero-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #0891b2 100%); }
+
+.sidebar-item { transition: background 0.2s ease, color 0.2s ease; border-radius: 0.75rem; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+
+@media print {
+    nav, footer, .no-print { display: none !important; }
+}
