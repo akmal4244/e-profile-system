@@ -5,7 +5,7 @@
 define('SUPABASE_URL', 'https://YOUR_PROJECT_REF.supabase.co');
 define('SUPABASE_ANON_KEY', 'YOUR_SUPABASE_ANON_KEY');
 define('SUPABASE_SERVICE_KEY', 'YOUR_SUPABASE_SERVICE_ROLE_KEY');
-define('APP_NAME', 'e-Profile System');
+define('APP_NAME', 'DirektoriMe');
 define('APP_VERSION', '1.0.0');
 define('UPLOAD_DIR', __DIR__ . '/uploads/');
 define('UPLOAD_URL', '/uploads/');
